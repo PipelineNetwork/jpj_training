@@ -47,7 +47,7 @@ class BeritaController extends Controller
      */
     public function show(Berita $berita)
     {
-        return $berita;
+        return Berita::where('id', 1)->first();
     }
 
     /**
